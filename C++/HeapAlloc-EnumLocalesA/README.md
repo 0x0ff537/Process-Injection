@@ -8,7 +8,7 @@ Then using the function [UuidFromStringA](https://docs.microsoft.com/en-us/windo
 
 To execute the shellcode a pointer to it is passed as a callback funtion to [EnumSystemLocalesA](https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-enumsystemlocalesa).
 
-##Converting shellcode to Uuids
+## Converting shellcode to Uuids
 I created the shellcode with the following command:
 `msfvenom -p windows/exec CMD=calc.exe -f raw -o calc.bin`
 then converted it to an Uuids list with the bin2AESUuids.py script provided. To use it just run:
