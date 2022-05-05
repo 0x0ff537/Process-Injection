@@ -16,7 +16,7 @@ python3 bin2AESUuids.py calc.bin      # This script works with python 3 only, yo
 ```
 The resulting list should be included in the code along with the decryption key, this is a nice trick to hide the payload.
 
-If you want to read more about the Lazarus loader check it here: https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method/.
+If you want to read more about the Lazarus loader check here: https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method/.
 
 Some other useful links:
 - http://ropgadget.com/posts/abusing_win_functions.html
