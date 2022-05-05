@@ -1,4 +1,4 @@
-## Replecating behaviour of Lazaru's loader
+# Replecating behaviour of Lazarus's loader
 
 This is a PoC of the techniques used by one of the Lazarus group loaders to avoid calling common Win32 APIs like VirtualAlloc, MoveMemory and CreateThread to allocate space, copy shellcode and execute it. I also added some other tricks like avoid importing any suspicious fuction by resolving them dynamically with a self implementation of GetProcAddress and GetModuleHandle functions and include strings as char arrays to avoid finding suspicious strings in the final executable. All of these last techniques learned from [Sektor7's](https://twitter.com/SEKTOR7net) amazing [Intermediate Malware Development](https://institute.sektor7.net/rto-maldev-intermediate) course. 
 
