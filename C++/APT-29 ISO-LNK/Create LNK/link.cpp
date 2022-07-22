@@ -1,3 +1,7 @@
+/* Code obtained from x86Matthew https://www.x86matthew.com/view_post?id=embed_exe_lnk
+   I just modified it for myown needs.
+*/
+
 #include <stdio.h>
 #include <windows.h>
 
