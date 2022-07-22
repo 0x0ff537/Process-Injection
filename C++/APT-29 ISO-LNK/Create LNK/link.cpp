@@ -1,5 +1,5 @@
 /* Code obtained from x86Matthew https://www.x86matthew.com/view_post?id=embed_exe_lnk
-   I just modified it for myown needs.
+   I just modified it for my own needs.
 */
 
 #include <stdio.h>
